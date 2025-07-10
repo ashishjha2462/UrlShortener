@@ -49,7 +49,7 @@ exports.redirectUrl = async (req, res) => {
     if (found.expiresAt && new Date() > found.expiresAt) {
       return res.status(410).json({ error: "URL expired" });
     }
-    found.clickCount += 1; // For analytics (bonus)
+    found.clickCount += 1;
     await found.save();
 
     res.redirect(found.originalUrl);
