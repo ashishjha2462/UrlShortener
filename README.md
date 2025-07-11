@@ -108,6 +108,10 @@ A simple api that shortens long URLs, tracks clicks, supports expiration.
 
 ---
 
+## 🐋Deployement 
+### Use Postman at
+ `https://urlshortener-vf6w.onrender.com`
+
 ## 📄 License
 
 MIT
